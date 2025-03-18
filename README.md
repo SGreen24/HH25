@@ -18,3 +18,6 @@ HackHounds '25 Website! Contributors include: Silas Green and Callie Walker (for
 - npm install react-icons
 - npm install tailwindcss @tailwindcss/vite
 - npm install daisyui
+
+
+Added production branch
