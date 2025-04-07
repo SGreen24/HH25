@@ -12,7 +12,7 @@ import Emma from './icons/Emma.png'
 import Dave from './icons/comic-dave.png'
 import CyberHounds from './icons/CyberHounds.png';
 import SOS from './icons/stand-out-stickers-logo.png'
-import ColorStackLUM from './icons/colorstack-logo.png';
+import ColorStackLUM from './icons/colorstack-logo.png'
 import { BriefcaseMedical, BrainCircuit, CircleDollarSign, GraduationCap, Sparkles, Crown, Eye } from 'lucide-react';
 import { TbHexagonNumber1, TbHexagonNumber2, TbHexagonNumber3 } from "react-icons/tb";
 import { GrGithub, GrInstagram, GrLinkedin } from "react-icons/gr";
