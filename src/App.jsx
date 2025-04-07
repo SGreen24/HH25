@@ -12,6 +12,7 @@ import Emma from './icons/Emma.png'
 import Dave from './icons/comic-dave.png'
 import CyberHounds from './icons/CyberHounds.png';
 import SOS from './icons/stand-out-stickers-logo.png'
+import ColorStackLUM from './icons/colorstack-logo.png';
 import { BriefcaseMedical, BrainCircuit, CircleDollarSign, GraduationCap, Sparkles, Crown, Eye } from 'lucide-react';
 import { TbHexagonNumber1, TbHexagonNumber2, TbHexagonNumber3 } from "react-icons/tb";
 import { GrGithub, GrInstagram, GrLinkedin } from "react-icons/gr";
@@ -783,6 +784,7 @@ function App() {
         </div>
       </a>
       
+
       {/* Sponsor 4 - SOS with Site Link */}
       <a href="https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Femail2click.mlh.io%2Fls%2Fclick%3Fupn%3Du001.RdozofatWF2I0U8RNZ0g-2Bs5RDtELZ06J1YoJ8HGyd-2F67eMyOvJXFcFGNppLJ-2BKk-2FMh7MmiTl7y8xdv9hVe3ApnCKm4aDh1POhPGXJ3ZQcxZOkgZJDcqQbs8dgHH-2FIuSd46yAYKuBj1Gb3mF548jGmBaDw55K8wnEURAWgksxqWrskGSXqk8PX4L7GEozpkZJDDnqGIOEEFfuKWaG0PNYQLKm158apzcwZ6o6VVHqSlc9nvK8pHn6bo5nusCHr00HIYzMFFhv43BLvrJd6y9t2ni2Drwqvx8DZamuzXPZnI8eY17T-2BdxB1RafBEH36k4O7elCchhFzJqrIf4Xr1piffi850VGF83evVazISw-2BE6gMNLZG1eblGaoyt9-2FCf02o89TjdMiv37ba8QsXNJuKxJAIyVw4J1ykNg6EfXBtztM-3DLdOb_uT-2B2KJTFkm3vjCS7TDFkjTNaJW3LWM7sfE04Qvh-2FFQc-2BKxD4u4Aio4XulPQ0-2B-2BdS-2BlE-2FK2sRQVrLRsZXVzJwxcaRJhrBw8GJoAHHW36s7a5sk3Bzz9Fl-2F2IOyh0yViVuGpHmkIfdhDDq2UzjUSRN5srsw7M0EBwKyQCvFDtsB6eSn-2BwNC6gBMsuqfUhher9hguyshs36v3-2Fp3w2Zid7ZWiVejE-2BiR1eByGciglJzhu0WMW-2FjHlEuIRgRffF1m5Q7GdMqYH-2BY-2FdLETiH1AKy12qEvKsVKNOlo2pkhH4IWfhM-3D&data=05%7C02%7Csgreen%40loyola.edu%7Cf94d5d70b0ae4fbd724708dd68808a95%7C30ae0a8f3cdf44fdaf34278bf639b85d%7C0%7C0%7C638781623499231941%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=mapky1%2BmTkEDQt%2BqaDthxo6%2F%2FMRTKH0gQj17a%2BwuEj0%3D&reserved=0" 
          target="_blank" rel="noopener noreferrer"
@@ -793,6 +795,20 @@ function App() {
               <img src={SOS} alt="SOS" className="max-h-12" />
             </div>
             <h3 className="text-xl font-bold text-blue-400 pixelated text-center">Stand out Stickers</h3>
+          </div>
+        </div>
+      </a>
+
+      {/* Sponsor 5 - ColorStack LUM with Site Link */}
+      <a href="https://www.instagram.com/colorstacklum/" 
+         target="_blank" rel="noopener noreferrer"
+         className="transform transition-all duration-300 hover:-translate-y-2">
+        <div className="flex items-center justify-center bg-black/50 border border-green-500/30 rounded-xl p-6 backdrop-blur-sm hover:bg-black/70 transition-all duration-300 h-full">
+          <div className="flex flex-col items-center">
+            <div className="w-16 h-16  rounded-full flex items-center justify-center mb-4">
+              <img src={ColorStackLUM} alt="ColorStack LUM" className="max-h-12" />
+            </div>
+            <h3 className="text-xl font-bold pixelated text-center" style={{ color: "#00B555" }}>ColorStack LUM</h3>
           </div>
         </div>
       </a>
